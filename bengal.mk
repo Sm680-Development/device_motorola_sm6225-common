@@ -353,9 +353,9 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
-    android.hardware.power@1.2.vendor \
-    android.hardware.power-V1-ndk_platform.vendor
+    powerhint.json
+
+PRODUCT_USES_PIXEL_POWER_HAL := true
 
 # Public libraries
 PRODUCT_COPY_FILES += \
