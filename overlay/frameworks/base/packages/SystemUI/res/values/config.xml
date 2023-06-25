@@ -28,4 +28,8 @@
         <item>150</item>
     </integer-array>
 
+    <!-- Burn in protection -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+    <integer name="config_shift_interval">60</integer>
+
 </resources>
