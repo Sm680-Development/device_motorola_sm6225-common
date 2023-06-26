@@ -205,4 +205,8 @@
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
+    <!-- The duration (in milliseconds) that should be 
+         applied to waveform vibrations that ends in non-zero amplitudes, to bring the vibrator amplitude down to zero using this timing. -->
+    <integer name="config_vibrationWaveformRampDownDuration">25</integer>
+
 </resources>
