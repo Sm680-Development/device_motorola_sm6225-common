@@ -47,7 +47,6 @@ genfscon sysfs /devices/platform/soc/4a88000.i2c/i2c-2/2-0038/touchscreen/ft3519
 genfscon sysfs /devices/platform/soc/4a80000.spi/spi_master/spi0/spi0.0             u:object_r:vendor_sysfs_touchpanel:s0
 genfscon sysfs /devices/virtual/touchscreen/ft8726                                  u:object_r:vendor_sysfs_touchpanel:s0
 genfscon sysfs /devices/virtual/touchscreen/NVT-ts                                  u:object_r:vendor_sysfs_touchpanel:s0
-genfscon sysfs /devices/virtual/touchscreen/ft8726                                  u:object_r:vendor_sysfs_touchpanel:s0
 
 # USB
 genfscon sysfs /devices/platform/soc/soc:mmi,discrete-charging/power_supply/pc_port     u:object_r:vendor_sysfs_usb_supply:s0
