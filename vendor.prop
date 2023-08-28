@@ -119,6 +119,7 @@ debug.sf.predict_hwc_composition_strategy=0
 persist.sys.sf.native_mode=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+ro.hwui.render_ahead=20
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_HDR_display=false
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
