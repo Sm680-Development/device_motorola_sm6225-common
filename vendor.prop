@@ -148,6 +148,7 @@ vendor.gralloc.secure_preview_buffer_format=420_sp
 vendor.opengles.version=196610
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=20
+debug.sdm.support_writeback=0
 
 # DPM
 persist.vendor.dpmhalservice.enable=1
