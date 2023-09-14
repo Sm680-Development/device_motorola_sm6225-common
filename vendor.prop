@@ -143,6 +143,7 @@ ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 vendor.display.camera_noc_efficiency_factor=0.70
 vendor.display.comp_mask=0
+vendor.display.defer_fps_frame_count=2
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_hw_recovery_dump=1
