@@ -133,16 +133,6 @@ TARGET_MODULE_ALIASES += \
 TARGET_MODULE_ALIASES += \
     wlan.ko:qca_cld3_wlan.ko
 
-# Lineage Health
-ifneq ($(wildcard hardware/*/interfaces/health),)
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/charging_enabled
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED := 1
-
-BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor/lineage_health
-endif
-
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_USES_METADATA_PARTITION := true

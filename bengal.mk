@@ -219,7 +219,7 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-impl-qti:64 \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
@@ -236,12 +236,6 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
-
-# Lineage Health
-ifneq ($(wildcard hardware/*/interfaces/health),)
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-endif
 
 # Media
 PRODUCT_PACKAGES += \
