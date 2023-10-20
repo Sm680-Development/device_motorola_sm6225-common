@@ -34,6 +34,7 @@ on early-init
     write /proc/sys/kernel/sched_boost 1
     exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qti.early_init.sh
     setprop ro.soc.model ${ro.vendor.qti.soc_model}
+    start vendor.audioadsprpcd_audiopd
 
 on init
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
