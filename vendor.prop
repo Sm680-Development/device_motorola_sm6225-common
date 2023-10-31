@@ -88,6 +88,9 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 vendor.qcom.bluetooth.soc=cherokee
 
+# Cache
+debug.sf.disable_client_composition_cache=1
+
 # Camera
 camera.disable_zsl_mode=1
 
