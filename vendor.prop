@@ -116,6 +116,7 @@ dalvik.vm.systemuicompilerfilter=speed
 debug.renderengine.backend=skiaglthreaded
 debug.cpurend.vsync=false
 debug.performance.tuning=1
+debug.sf.auto_latch_unsignaled=true
 debug.sf.enable_hwc_vds=1
 debug.sf.enable_transaction_tracing=false
 debug.sf.disable_backpressure=1
