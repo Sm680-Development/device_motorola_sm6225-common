@@ -112,6 +112,7 @@ dalvik.vm.heapmaxfree=8m
 dalvik.vm.systemuicompilerfilter=speed
 
 # Display
+debug.renderengine.backend=skiaglthreaded
 debug.cpurend.vsync=false
 debug.performance.tuning=1
 debug.sf.enable_hwc_vds=1
